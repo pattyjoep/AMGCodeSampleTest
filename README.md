@@ -1,5 +1,5 @@
 # AMGCodeSampleTest
 
-Technologies Used: 
+Technologies Used: HTML, CSS, Bootstrap, Javascript, jQuery
 
-Click on the @icon-camera icon to take a screen shot.
+JS / jQuery Click Events handle the sidebar navigation menu toggle
