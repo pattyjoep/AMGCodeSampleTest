@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+a {
+    color: #029dda;
+}
+
+.advanced-search-link {
+    float: right;
+}
+
+.btn-group {
+    float: right;
+}
+
+.card-icon {
+    color: #029dda;
+    margin: 5px !important;
+}
+
+.fas {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+h2, h4 {
+    color: #029dda;
+}
+
+input {
+    height: 40px;
+}
+
+.menu-item-text {
+    color: gray;
+}
+
+.user-actions-div {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.user-greeting {
+    color: #029dda;
+}
+
+.user-profile-icon {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.scroll-left-btn, .scroll-right-btn {
+    float: right;
+
+}
+
+/* Search Bar */
+.search-icon {
+    color: gray;
+    float: right;
+    margin-right: 10px;
+}
+
+.search-input {
+    width: 300px;
+    float: right;
+}
+
+/* Sidebar */
+.sidebar-div-collapsed {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    z-index: 1;
+    background: white;
+    border-right: 1px solid #029dda; 
+}
+
+.sidebar-div-expanded {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    background: white;
+    border-right: 1px solid #029dda; 
+}
+
+.expand-sidebar-btn {
+    margin-left: 75px;
+}
+
+.collapse-sidebar-btn {
+    margin-left: 225px;
+}
+
+
+/* Class Applied to Expanded Side bar to hide */
+.hidden {
+    display: none;
+}
+
+/* Page Content */
+.main-page-content {
+    position: absolute;
+    width: 98%;
+    padding-left: 80px;
+    margin: 20px;
+}
+
+.favorites-container, .live-container {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 522px) {
+    .search-icon {
+      display: none;
+    }
+    .advanced-search-link, .search-input {
+        float: left;
+    }
+  }
