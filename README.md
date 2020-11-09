@@ -2,7 +2,7 @@
 
 Technologies Used: HTML, CSS, Bootstrap, Javascript, jQuery, Font Awesome
 
-HTML Body Font: Poppins (https://fonts.google.com/specimen/Poppins)
+HTML Body Font: Poppins (https://fonts.google.com/specimen/Poppins),
 All icons are Font Awesome
 
 ## Click Events
